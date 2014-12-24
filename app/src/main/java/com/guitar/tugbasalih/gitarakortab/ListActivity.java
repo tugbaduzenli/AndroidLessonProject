@@ -17,7 +17,7 @@ public class ListActivity extends ActionBarActivity {
         setContentView(R.layout.search_list);
         Intent intent = getIntent();
         ListView songList   =   (ListView)  findViewById(R.id.songList);
-        String value = intent.getStringExtra("key");
-        Toast.makeText(getApplicationContext(),value,Toast.LENGTH_LONG).show();
+        //String value = intent.getStringExtra("key");
+        Toast.makeText(getApplicationContext()," hi ",Toast.LENGTH_LONG).show();
     }
 }
