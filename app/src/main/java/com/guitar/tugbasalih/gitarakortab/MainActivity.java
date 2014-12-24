@@ -20,31 +20,22 @@ public class MainActivity extends ActionBarActivity {
         Button  tabAraButton    =   (Button)    findViewById(R.id.tabSearchButton);
         Button  akorAraButton   =   (Button)    findViewById(R.id.chordSearchButton);
         EditText searchBox      =   (EditText)  findViewById(R.id.searchValue);
-
-        tabAraButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-
-                Intent myIntent = new Intent(MainActivity.this, ListActivity.class);
-                myIntent.putExtra("key", value); //Optional parameters
-                MainActivity.this.startActivity(myIntent);
-
-            }
-        });
-
-        akorAraButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-
-                Intent myIntent = new Intent(MainActivity.this, ListActivity.class);
-                myIntent.putExtra("key", value); //Optional parameters
-                MainActivity.this.startActivity(myIntent);
-
-            }
-        });
     }
 
 
+    public void tabAra(View v){
+
+        Intent myIntent = new Intent(MainActivity.this, ListActivity.class);
+        //myIntent.putExtra("key", value); //Optional parameters
+        MainActivity.this.startActivity(myIntent);
+    }
+
+    public void akorAra(View v){
+        Intent myIntent = new Intent(MainActivity.this, ListActivity.class);
+        //myIntent.putExtra("key", value); //Optional parameters
+        MainActivity.this.startActivity(myIntent);
+
+    }
 
 
 }

@@ -2,13 +2,6 @@
 <items version="2" >
 
     <item
-        jar="/home/salih/AndroidStudioProjects/GitarAkortab/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.2/classes.jar"
-        jumboMode="false"
-        revision="20.0.0"
-        sha1="7ae2d38807a43b2f2185ff4089a92c790b579e54">
-        <dex dex="/home/salih/AndroidStudioProjects/GitarAkortab/app/build/intermediates/pre-dexed/debug/classes-920c635cde638043f4fcd80c186c00bdb4fb3065.jar" />
-    </item>
-    <item
         jar="/home/salih/ides/sdk/extras/android/m2repository/com/android/support/support-annotations/21.0.2/support-annotations-21.0.2.jar"
         jumboMode="false"
         revision="20.0.0"
@@ -21,6 +14,13 @@
         revision="20.0.0"
         sha1="d1bf02de1c56d942e7a9d093b8610ba1ef4128e3">
         <dex dex="/home/salih/AndroidStudioProjects/GitarAkortab/app/build/intermediates/pre-dexed/debug/classes-56d6143ccefab508955025bcb9aa7fadaec2e701.jar" />
+    </item>
+    <item
+        jar="/home/salih/AndroidStudioProjects/GitarAkortab/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.2/classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="7ae2d38807a43b2f2185ff4089a92c790b579e54">
+        <dex dex="/home/salih/AndroidStudioProjects/GitarAkortab/app/build/intermediates/pre-dexed/debug/classes-920c635cde638043f4fcd80c186c00bdb4fb3065.jar" />
     </item>
     <item
         jar="/home/salih/AndroidStudioProjects/GitarAkortab/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.2/libs/internal_impl-21.0.2.jar"

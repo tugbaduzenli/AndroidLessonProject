@@ -46,6 +46,7 @@
             android:id="@+id/chordSearchButton"
             android:layout_margin="20dp"
             android:text="Akor Ara"
+            android:onClick="akorAra"
             android:textColor="#000000"
             android:textColorHint="#ffffff"
             />
@@ -55,6 +56,7 @@
             android:layout_height="wrap_content"
             android:id="@+id/tabSearchButton"
             android:layout_margin="20dp"
+            android:onClick="tabAra"
             android:text="Tab Ara"
             android:textColor="#000000"
             android:textColorHint="#ffffff"
